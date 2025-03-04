@@ -1,5 +1,5 @@
 import { Box, Flex, Text, Input, Button, Textarea, IconButton, useColorMode, useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader, ModalBody, ModalCloseButton } from "@chakra-ui/react";
-import { FaMoon, FaSun } from "react-icons/fa";
+import { FaMoon } from "react-icons/fa";
 import { IoSunny } from "react-icons/io5";
 import { useState, useEffect } from "react";
 import axios from "axios";
@@ -16,6 +16,14 @@ function App() {
   const { isOpen: isFeedbackOpen, onOpen: onFeedbackOpen, onClose: onFeedbackClose } = useDisclosure();
   const [loading, setLoading] = useState(false);
   const [hotTakes, setHotTakes] = useState([]);
+
+  useEffect(() => {
+    document.title = "Hot Take";  
+    const favicon = document.querySelector("link[rel='icon']");
+    if (favicon) {
+      favicon.href = "/logo.png"; 
+    }
+  }, []);
 
   const countryOptions = countriesData.map((country) => ({
     value: country.cca2,
