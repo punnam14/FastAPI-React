@@ -9,7 +9,7 @@ import GlobeComponent from "./Globe";
 import { useToast } from "@chakra-ui/react";
 
 function App() {
-  const API_BASE_URL = "http://hottake.pro/api";
+  const API_BASE_URL = "https://hottake.pro/api";
   const toast = useToast();
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
