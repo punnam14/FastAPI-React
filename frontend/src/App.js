@@ -173,7 +173,7 @@ function App() {
             w="100%"
           >
             <Button variant="outline" w="100%" py="5" fontSize="lg" colorScheme="blue" onClick={onOpen}>
-              Post Simple Change
+              Post
             </Button>
             <Box mt={6} w="100%" textAlign="center">
               <Text fontSize="xl" mb={3}>Recent Hot Takes</Text>
