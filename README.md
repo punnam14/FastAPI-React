@@ -1,3 +1,3 @@
 # FastAPI-React
 
-Update Read me
+Update Readme
