@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/punnam14/FastAPI-React/compare/v1.1.1...v1.2.0) (2025-03-13)
+
+
+### Features
+
+* **ci:** trigger new RC promotion workflow ([b93ab77](https://github.com/punnam14/FastAPI-React/commit/b93ab77d9bf46323e538abd1be8815df7d89abd2))
+
 ## [1.1.1](https://github.com/punnam14/FastAPI-React/compare/v1.1.0...v1.1.1) (2025-03-13)
 
 
