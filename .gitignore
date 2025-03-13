@@ -16,6 +16,9 @@ frontend/.next/
 frontend/dist/
 frontend/yarn.lock
 
+node_modules/
+package-lock.json
+
 .DS_Store
 Thumbs.db
 *.log
