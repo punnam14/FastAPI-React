@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/punnam14/FastAPI-React/compare/v1.1.0...v1.1.1) (2025-03-13)
+
+
+### Bug Fixes
+
+* **ci:** correctly extract release tag from dispatch event ([926866f](https://github.com/punnam14/FastAPI-React/commit/926866f2b9cc92d5ec7c1cab81b4f67405bd2d20))
+
 # [1.1.0](https://github.com/punnam14/FastAPI-React/compare/v1.0.0...v1.1.0) (2025-03-13)
 
 
