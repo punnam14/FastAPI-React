@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/punnam14/FastAPI-React/compare/v1.0.0...v1.1.0) (2025-03-13)
+
+
+### Features
+
+* add new setup instructions to README ([c373403](https://github.com/punnam14/FastAPI-React/commit/c373403c567e0d6ed3ea9444f644849a9e4a1682))
+
 # 1.0.0 (2025-03-13)
 
 
