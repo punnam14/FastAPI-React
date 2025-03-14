@@ -1,3 +1,3 @@
 # FastAPI-React
 
-Update Readme v6
+Update Readme v7
